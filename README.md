@@ -60,3 +60,11 @@ For a full description of how we compute the LEX measures, please read the [LEX 
 
 **Work in progress**:
 Venue-level exposure index, Device-level exposure index, Device network-overlap index
+
+
+## Acknowledgments
+
+Victor Couture thanks the Fisher Center for Real Estate and Urban Economics at Berkeley for generous financial support.
+Jonathan Dingel thanks the James S. Kemper Foundation Faculty Research Fund at the University of Chicago Booth School of Business.
+Jessie Handbury thanks the Research Sponsors Program of the Wharton Zell-Lurie Real Estate Center and the Wharton Dean's Research Fund.
+Kevin Williams thanks the Yale School of Management.
