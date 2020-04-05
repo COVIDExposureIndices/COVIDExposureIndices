@@ -19,7 +19,7 @@ They are derived from anonymized, aggregated smartphone movement data provided b
 We are making these indices publicly available to all researchers in the context of the spread of COVID-19.
 The indices, which describe (potential) exposure varying across locations and time within the United States, could be useful in a variety of applications.
 The indices published here cover January 2020 to present, with a seven-day lag.
-We will update them daily.
+We will update them every weekday.
 
 We thank Drew Breunig, Nicholas Sheilas, Stephanie Smiley, Elizabeth Cutrone, and the team at PlaceIQ for their ongoing help.
 This data release was approved by the University of California, Berkeley Office for Protection of Human Subjects under CPHS Protocol No 2018-05-11122.
@@ -47,6 +47,7 @@ The daily county-level LEX is an approximately 2000-by-2000 matrix in which each
 among devices that pinged today in the column county,
 the share of devices that pinged in the row county at least once during the previous 14 days.
 
+For tips on downloading and processing these data, please read the [notes for users](documentation/LEX_notes.md).
 For a full description of how we compute the LEX measures, please read the [LEX documentation PDF](documentation/LEX.pdf).
 
 ## Further information and feedback
