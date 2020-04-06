@@ -34,7 +34,7 @@ Currently version 0.5.
 
 - **State-level location exposure index (LEX)**: 
 Among smartphones that pinged in a given state today,
-what share of those devices pinged in another state at least once during the previous 14 days?
+what share of those devices pinged in each state at least once during the previous 14 days?
 The daily state-level LEX is a 51-by-51 matrix in which each cell reports,
 among devices that pinged today in the column state,
 the share of devices that pinged in the row state at least once during the previous 14 days.
@@ -42,7 +42,7 @@ The District of Columbia is the 51st geographic entity in this LEX.
 
 - **County-level location exposure index (LEX)**: 
 Among smartphones that pinged in a given county today,
-what share of those devices pinged in another county at least once during the previous 14 days?
+what share of those devices pinged in each county at least once during the previous 14 days?
 The daily county-level LEX is an approximately 2000-by-2000 matrix in which each cell reports,
 among devices that pinged today in the column county,
 the share of devices that pinged in the row county at least once during the previous 14 days.
@@ -69,3 +69,6 @@ Victor Couture thanks the Fisher Center for Real Estate and Urban Economics at B
 Jonathan Dingel thanks the James S. Kemper Foundation Faculty Research Fund at the University of Chicago Booth School of Business.
 Jessie Handbury thanks the Research Sponsors Program of the Wharton Zell-Lurie Real Estate Center and the Wharton Dean's Research Fund.
 Kevin Williams thanks the Yale School of Management.
+
+For helpful feedback and reactions to our data and documentation,
+we thank Gabriel Kreindler.
