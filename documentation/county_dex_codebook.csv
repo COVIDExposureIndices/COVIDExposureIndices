@@ -1,0 +1,7 @@
+Column,Variable Name,Variable Description
+1,county,County code (5-digit FIPS)
+2,date,Date
+3,dex,DEX in county on that date
+4,num_devices,Number of devices residing in county on that date
+5,dex_a,Adjusted dex in county on that date
+6,num_devices_a,Adjusted num_devices in county on that date

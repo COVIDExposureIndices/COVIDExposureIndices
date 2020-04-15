@@ -1,0 +1,55 @@
+Column,Variable Name,Variable Description
+1,state,State code (two-letter postal abbreviation)
+2,date,Date
+3,dex,DEX in state on that date
+4,num_devices,Number of devices residing in state on that date
+5,dex_a,Adjusted dex in state on that date
+6,num_devices_a,Adjusted num_devices in state on that date
+7,dex_income_1,DEX for devices residing in bottom quartile of the block group median income distribution in state on that date
+8,num_devices_income_1,Number of devices residing in bottom quartile of the block group median income distribution in state on that date
+9,dex_income_1_a,Adjusted dex_income_1 in state on that date
+10,num_devices_income_1_a,Adjusted num_devices_income_1 in state on that date
+11,dex_income_2,
+12,num_devices_income_2,
+13,dex_income_2_a,
+14,num_devices_income_2_a,
+15,dex_income_3,
+16,num_devices_income_3,
+17,dex_income_3_a,
+18,num_devices_income_4_a,
+19,dex_income_4,
+20,num_devices_income_4,
+21,dex_income_4_a,
+22,num_devices_income_4_a,
+23,dex_education_1,DEX for devices residing in bottom quartile of the block group college share distribution in state on that date
+24,num_devices_education_1,Number of devices residing in bottom quartile of the block group college share distribution in state on that date
+25,dex_education_1_a,Adjusted dex_education_1 in state on that date
+26,num_devices_education_1_a,Adjusted num_devices_education_1 in state on that date
+27,dex_education_2,
+28,num_devices_education_2,
+29,dex_education_2_a,
+30,num_devices_education_2_a,
+31,dex_education_3,
+32,num_devices_education_3,
+33,dex_education_3_a,
+34,num_devices_education_4_a,
+35,dex_education_4,
+36,num_devices_education_4,
+37,dex_education_4_a,
+38,num_devices_education_4_a,
+39,dex_race_asian,"DEX in state on that date, with weights on each device equal to share of residents of its block group who are Asian."
+40,num_devices_race_asian,"Number of devices in state on that date, with weights on each device equal to share of residents of its block group who are Asian."
+41,dex_race_asian_a,Adjusted dex_race_asian in state on that date
+42,num_devices_race_asian_a,Adjusted num_devices_race_asian in state on that date
+43,dex_race_black,
+44,num_devices_race_black,
+45,dex_race_black_a,
+46,num_devices_race_black_a,
+47,dex_race_hispanic,
+48,num_devices_race_hispanic,
+49,dex_race_hispanic_a,
+50,num_devices_race_hispanic_a,
+51,dex_race_white,
+52,num_devices_race_white,
+53,dex_race_white_a,
+54,num_devices_race_white_a,
