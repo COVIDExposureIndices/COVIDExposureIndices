@@ -21,6 +21,9 @@ The indices, which describe (potential) exposure varying across locations and ti
 The indices published here cover January 2020 to present, with a seven-day lag.
 We will update them every weekday.
 
+When using these indices, please cite "[Measuring movement and social contact with smartphone data: a real-time application to COVID-19](CDGHW.pdf)" by Couture, Dingel, Green, Handbury, and Williams.
+The paper describes properties of smartphone data, compares the residential distribution and movement patterns of devices to those in traditional data sources, and discusses potential measurement issues that arise in the context of the ongoing pandemic.
+
 We thank Drew Breunig, Nicholas Sheilas, Stephanie Smiley, Elizabeth Cutrone, and the team at PlaceIQ for their ongoing help.
 This data release was approved by the University of California, Berkeley Office for Protection of Human Subjects under CPHS Protocol No 2018-05-11122.
 
