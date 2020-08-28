@@ -49,6 +49,9 @@ The daily county-level LEX is an approximately 2000-by-2000 matrix in which each
 among devices that pinged today in the column county,
 the share of devices that pinged in the row county at least once during the previous 14 days.
 
+Daily LEX values are available for January 20 through August 19.
+To limit computational costs, we are only publishing LEX values for Wednesdays and Saturdays after August 20, 2020.
+
 For tips on downloading and processing these data, please read the [notes for users](documentation/LEX_notes.md).
 For a full description of how we compute the LEX measures, please read the [LEX documentation PDF](documentation/LEX.pdf).
 
