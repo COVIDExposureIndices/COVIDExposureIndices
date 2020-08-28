@@ -4,7 +4,7 @@
 
 This repository contains indices describing exposure on the basis of smartphone movements.
 These indices are produced by
-[Victor Couture](http://faculty.haas.berkeley.edu/couture/index.html), 
+[Victor Couture](https://economics.ubc.ca/faculty-and-staff/victor-couture/),
 [Jonathan Dingel](http://www.jdingel.com),
 [Allison Green](https://github.com/awasgreen), 
 [Jessie Handbury](http://www.jessiehandbury.com/),
@@ -98,8 +98,9 @@ Venue-level exposure index, Device network-overlap index
 
 ## Acknowledgments
 
+These indices are based upon work supported by the National Science Foundation under Grant No. 2030056.
 Victor Couture thanks the Fisher Center for Real Estate and Urban Economics at Berkeley for generous financial support.
-Jonathan Dingel thanks the James S. Kemper Foundation Faculty Research Fund at the University of Chicago Booth School of Business.
+Jonathan Dingel thanks the James S. Kemper Foundation Faculty Research Fund and Initiative for Global Markets at the University of Chicago Booth School of Business.
 Jessie Handbury thanks the Research Sponsors Program of the Wharton Zell-Lurie Real Estate Center and the Wharton Dean's Research Fund.
 Kevin Williams thanks the Yale School of Management.
 
