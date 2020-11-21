@@ -13,8 +13,14 @@ The District of Columbia is the 51st geographic entity.
 - For DEX indices by census-block-group income quartile, 1 indexes the poorest quartile, and 4 the richest.
 - For DEX indices by census-block-group education quartile, 1 indexes the lowest college share quartile, and 4 the highest.
 
+### Data update frequency
+
+- DEX indices are updated every weekday.
+- The state-level DEX indices for specific demographic groups (DEX-income, DEX-education, DEX-race) are retrospectively updated once per week to incorporate devices newly assigned to a residential block group.
+
 ### Data release history
 
+- Version 0.6.1: State-level DEX indices for specific demographic groups are now retrospectively updated once per week to incorporate devices newly assigned to a residential block group, starting 13 November 2020.
 - Version 0.6 DEX values reflect two changes relative to version 0.5:
 (1) an updated underlying basemap of residential locations
 and

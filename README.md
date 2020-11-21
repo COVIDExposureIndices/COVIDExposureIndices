@@ -57,7 +57,7 @@ For a full description of how we compute the LEX measures, please read the [LEX 
 
 ### [Device exposure indices](dex_data)
 
-Currently version 0.6.
+Currently version 0.6.1.
 
 - **State-level device exposure index (DEX)**: 
 For a smartphone residing in a given state, how many distinct devices also visited any of the commercial venues that this device visited today?
