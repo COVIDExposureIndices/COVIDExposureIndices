@@ -11,9 +11,9 @@ These indices are produced by
 and 
 [Kevin Williams](http://www.kevinrwilliams.com/),
 with assistance from
-Hayden Parsley
-and
-Serena Xu. 
+Hayden Parsley,
+Serena Xu,
+and Shih Hsuan Hsu.
 They are derived from anonymized, aggregated smartphone movement data provided by [PlaceIQ](https://www.placeiq.com/).
 
 We are making these indices publicly available to all researchers in the context of the spread of COVID-19.
@@ -57,7 +57,7 @@ For a full description of how we compute the LEX measures, please read the [LEX 
 
 ### [Device exposure indices](dex_data)
 
-Currently version 0.6.1.
+Currently version 0.6.5.
 
 - **State-level device exposure index (DEX)**: 
 For a smartphone residing in a given state, how many distinct devices also visited any of the commercial venues that this device visited today?
@@ -67,6 +67,10 @@ since only a fraction of individuals, venues, and visits are in the device sampl
 	- DEX-income reports the state-level average of this number for the four groups of devices residing in each of four neighborhood-income quartiles.
 	- DEX-education reports the state-level average of this number for the four groups of devices residing in each of four neighborhood-college-share quartiles.
 	- DEX-race reports the state-level average of this number for four ethnic/racial demographic groups, weighting each device by the share of its neighborhood residents who belong to the ethnic/racial demographic group.
+
+- **CBSA-level device exposure index (DEX)**:
+For a smartphone residing in a given core-based statistical area (CBSA), how many distinct devices also visited any of the commercial venues that this device visited today?
+CBSA-level counterparts of the state-level measures listed above are available.
 
 - **County-level device exposure index (DEX)**: 
 For a smartphone residing in a given county, how many distinct devices also visited any of the commercial venues that this device visited today?
@@ -79,7 +83,7 @@ In the context of the ongoing pandemic, the DEX measure may be biased if devices
 We report adjusted DEX values to help address this selection bias.
 DEX-adjusted is computed assuming that the number of devices has not declined since the early-2020 peak and that unobserved devices did not visit any commercial venues.
 
-These indices are reported in a [state-level file](dex_data/state_dex.csv) and a [county-level file](dex_data/county_dex.csv).
+These indices are reported in a [state-level file](dex_data/state_dex.csv), a [CBSA-level file](dex_data/cbsa_dex.csv), and a [county-level file](dex_data/county_dex.csv).
 For a codebook and tips on downloading and processing these data, please read the [notes for users](documentation/DEX_notes.md).
 For a full description of how we compute the DEX measures, please read the [DEX documentation PDF](documentation/DEX.pdf).
 
