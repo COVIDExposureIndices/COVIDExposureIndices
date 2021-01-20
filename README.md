@@ -25,7 +25,8 @@ When using these indices, please cite "[Measuring movement and social contact wi
 The paper describes properties of smartphone data, compares the residential distribution and movement patterns of devices to those in traditional data sources, and discusses potential measurement issues that arise in the context of the ongoing pandemic.
 
 We thank Drew Breunig, Nicholas Sheilas, Stephanie Smiley, Elizabeth Cutrone, and the team at PlaceIQ for their ongoing help.
-This data release was approved by the University of California, Berkeley Office for Protection of Human Subjects under CPHS Protocol No 2018-05-11122.
+This data release was approved by the University of California, Berkeley Office for Protection of Human Subjects under CPHS Protocol No 2018-05-11122
+and the University of Chicago Institutional Review Board under protocol IRB20-0967.
 
 ## Data description
 
@@ -57,7 +58,7 @@ For a full description of how we compute the LEX measures, please read the [LEX 
 
 ### [Device exposure indices](dex_data)
 
-Currently version 0.6.5.
+Currently version 0.6.6.
 
 - **State-level device exposure index (DEX)**: 
 For a smartphone residing in a given state, how many distinct devices also visited any of the commercial venues that this device visited today?
@@ -86,6 +87,9 @@ DEX-adjusted is computed assuming that the number of devices has not declined si
 These indices are reported in a [state-level file](dex_data/state_dex.csv), a [CBSA-level file](dex_data/cbsa_dex.csv), and a [county-level file](dex_data/county_dex.csv).
 For a codebook and tips on downloading and processing these data, please read the [notes for users](documentation/DEX_notes.md).
 For a full description of how we compute the DEX measures, please read the [DEX documentation PDF](documentation/DEX.pdf).
+
+State-level density DEX and residential DEX values through 3 June 2020 are available in the [archive](archive) folder.
+See Appendix C of [the manuscript](CDGHW.pdf) for details of these indices.
 
 ## Further information and feedback
 
