@@ -4,6 +4,8 @@
 - The geographic identifiers accompanying the state-level LEX are [two-letter postal abbreviations](https://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations).
 - The geographic identifiers accompanying the county-level LEX are [five-digit FIPS county codes](https://en.wikipedia.org/wiki/FIPS_county_code).
 - Please remember that these are not transition matrices because a phone can visit multiple counties in a 14-day period. The columns do not sum to one.
+- The files `aggLEX_county.csv` and `aggLEX_state.csv` provide the fraction of devices in a county/state that in the last two weeks were in any other county/state.
+These aggregate statistics are distinct from the LEX values that describe county-to-county and state-to-state movements.
 - We report the LEX data as square matrices in CSV files.
 If you want to reshape them to be "long" (N<sup>2</sup> rows with two identifier columns and one column of data), this can be done quickly. 
 [Stata](http://www.stata.com)'s "reshape" command will not do this quickly for a 2000-by-2000 matrix.
