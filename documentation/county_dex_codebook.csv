@@ -1,0 +1,5 @@
+Variable Name,Variable Description
+county,County code (5-digit FIPS)
+date,Date
+dex,DEX in county on that date
+num_devices,Number of devices residing in county on that date

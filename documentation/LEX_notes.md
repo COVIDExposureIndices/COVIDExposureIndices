@@ -1,6 +1,7 @@
 
 ## Notes for users of the LEX matrices
 
+- In version 0.8, LEX values are available for each Wednesday and Saturday since January 20, 2020.
 - The geographic identifiers accompanying the state-level LEX are [two-letter postal abbreviations](https://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations).
 - The geographic identifiers accompanying the county-level LEX are [five-digit FIPS county codes](https://en.wikipedia.org/wiki/FIPS_county_code).
 - Please remember that these are not transition matrices because a phone can visit multiple counties in a 14-day period. The columns do not sum to one.

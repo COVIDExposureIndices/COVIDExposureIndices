@@ -1,0 +1,29 @@
+Variable Name,Variable Description
+state,State code (two-letter postal abbreviation)
+date,Date
+dex,DEX in state on that date
+num_devices,Number of devices residing in state on that date
+dex_income_1,DEX for devices residing in bottom quartile of the block group median income distribution in state on that date
+num_devices_income_1,Number of devices residing in bottom quartile of the block group median income distribution in state on that date
+dex_income_2,
+num_devices_income_2,
+dex_income_3,
+num_devices_income_3,
+dex_income_4,
+num_devices_income_4,
+dex_education_1,DEX for devices residing in bottom quartile of the block group college share distribution in state on that date
+num_devices_education_1,Number of devices residing in bottom quartile of the block group college share distribution in state on that date
+dex_education_2,
+num_devices_education_2,
+dex_education_3,
+num_devices_education_3,
+dex_education_4,
+num_devices_education_4,
+dex_race_asian,"DEX in state on that date, with weights on each device equal to share of residents of its block group who are Asian."
+num_devices_race_asian,"Number of devices in state on that date, with weights on each device equal to share of residents of its block group who are Asian."
+dex_race_black,
+num_devices_race_black,
+dex_race_hispanic,
+num_devices_race_hispanic,
+dex_race_white,
+num_devices_race_white,
