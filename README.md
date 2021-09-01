@@ -2,8 +2,8 @@
 
 ## Summary
 
-This repository contains indices describing exposure on the basis of smartphone movements.
-These indices are produced by
+This repository contains indices describing exposure on the basis of smartphone movements from January 2020 to August 2021.
+These indices were produced by
 [Victor Couture](https://economics.ubc.ca/faculty-and-staff/victor-couture/),
 [Jonathan Dingel](http://www.jdingel.com),
 [Allison Green](https://github.com/awasgreen), 
@@ -16,16 +16,21 @@ Serena Xu,
 and Shih Hsuan Hsu.
 They are derived from anonymized, aggregated smartphone movement data provided by [PlaceIQ](https://www.placeiq.com/).
 
-We are making these indices publicly available to all researchers in the context of the spread of COVID-19.
+We made these indices publicly available to all researchers in the context of the spread of COVID-19.
 The indices, which describe (potential) exposure varying across locations and time within the United States, could be useful in a variety of applications.
-The indices published here cover January 2020 to present, with a seven-day lag.
+The indices published here cover 20 January 2020 to 24 August 2021.
 
 When using these indices, please cite "[Measuring movement and social contact with smartphone data: a real-time application to COVID-19](CDGHW.pdf)" ([*JUE*](https://doi.org/10.1016/j.jue.2021.103328), [BibTeX](http://www.jdingel.com/research/CDGHW.bib)) by Couture, Dingel, Green, Handbury, and Williams.
 The paper describes properties of smartphone data, compares the residential distribution and movement patterns of devices to those in traditional data sources, and discusses potential measurement issues that arise in the context of the ongoing pandemic.
 
-We thank Drew Breunig, Nicholas Sheilas, Stephanie Smiley, Elizabeth Cutrone, and the team at PlaceIQ for their ongoing help.
+We thank Drew Breunig, Nicholas Sheilas, Stephanie Smiley, Elizabeth Cutrone, and the team at PlaceIQ for their help.
 This data release was approved by the University of California, Berkeley Office for Protection of Human Subjects under CPHS Protocol No 2018-05-11122
 and the University of Chicago Institutional Review Board under protocol IRB20-0967.
+
+## September 2021 Update
+
+We discontinued the publication of these indices on 1 September 2021.
+The last day reported is 24 August 2021.
 
 ## June 2021 Update
 
@@ -48,7 +53,7 @@ The following indices are available as (compressed) CSV files in this GitHub rep
 
 ### [Location exposure indices](lex_data)
 
-Currently version 0.8.
+Version 0.8.
 
 - **State-level location exposure index (LEX)**: 
 Among smartphones that pinged in a given state today,
@@ -71,7 +76,7 @@ For a full description of how we compute the LEX measures, please read the [LEX 
 
 ### [Device exposure indices](dex_data)
 
-Currently version 0.8.
+Version 0.8.
 
 - **State-level device exposure index (DEX)**: 
 For a smartphone residing in a given state, how many distinct devices also visited any of the commercial venues that this device visited today?
@@ -101,9 +106,8 @@ See Appendix C of [the manuscript](CDGHW.pdf) for details of these indices.
 
 ## Further information and feedback
 
-- This is ongoing work released rapidly in the context of the ongoing pandemic. The release version less than "1.0" signals that these indices have only passed basic sensibility checks.
 - Please read the documentation to understand relevant caveats.
-- If you have questions, suggestions, or spot a bug, please file an issue at the GitHub repository. We welcome opportunities to improve the documentation and to better understand how you might want to use these and related indices that we are developing.
+- If you have questions, suggestions, or spot a bug, please file an issue at the GitHub repository.
 
 ## Acknowledgments
 
